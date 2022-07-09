@@ -14,8 +14,8 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon-3bb40aa6.ico">
 <!--    <script src="https://typpo.github.io/spacekit/build/spacekit.js"></script>-->
     
-  <script type="module" crossorigin src="/assets/js/index-983a9fc0.js"></script>
-  <link rel="stylesheet" href="/assets/index-c6b3513b.css">
+  <script type="module" crossorigin src="/assets/js/index-190b467b.js"></script>
+  <link rel="stylesheet" href="/assets/index-babad349.css">
 </head>
 <body>
 <div class="body-block">
@@ -40,12 +40,12 @@
             </div>
             <a>Дата наблюдения</a>
             <input class="input" id="date-input" type="date" placeholder="Дата наблюдения">
-            <a>Время</a>
+            <a>Время UTC</a>
             <input class="input" id="time-input" type="time" placeholder="Время наблюдения">
             <a>Широта</a>
-            <input class="input" id="phi-input" type="number" step="1" placeholder="">
+            <input class="input" id="phi-input" type="number" step="0.01" placeholder="">
             <a>Долгота</a>
-            <input class="input" id="lambda-input" type="number" step="1" placeholder="">
+            <input class="input" id="lambda-input" type="number" step="0.01" placeholder="">
             <div style="display: flex; gap: 5px; align-items: center; margin-left: 5px;">
                 <input id="phi-lambda-checkbox" type="checkbox">
                 <a>Распознать широту φ и долготу λ</a>
@@ -58,7 +58,8 @@
             <a id="delta">Склонение: δ = </a>
             <a id="alpha">Прямое восхождение: α = </a>
             <a id="azimut">Азимут (астрономический): A =</a>
-            <a id="height">Высота: h =</a>
+            <a id="height">Высота: h = </a>
+            <a id="apparent-magnitude">Видимая звездная величина: m = </a>
         </div>
     </div>
     <div class="map-block" id="map-block">
